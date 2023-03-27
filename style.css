@@ -1,0 +1,119 @@
+body {
+    background-image: url('img.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* change this */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.task h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.task p {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+}
+
+.task button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: #e60000;
+}
+
+.task.done {
+    background-color: #e6ffe6;
+}
+
+.task.done h4 {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 20px;
+    cursor: pointer;
+}
